@@ -1,0 +1,117 @@
+Add users in Linux
+Delete users
+Add groups
+File permissions
+User modifications
+
+
+useradd or adduser
+
+
+command --help or man command
+
+Regular users vs system users vs Admin/root/super users
+
+
+Principle of Least privileges - reduce the blast radius
+
+/home/madhu
+
+/ - root directory or / directory
+
+command <flags/option> inputs
+
+useradd -m madhu
+
+UserID uid >=1000
+
+User ID for root is 0
+
+system users: < 1000
+
+username - group name is same as user name
+
+
+
+
+
+rwx         r-x      r-x      2        root          root 4096 Oct  2 20:57 pentest
+
+User/owner  group     others           user/owner    group 
+
+
+
+r read     4
+w write    2
+x execute  1
+
+
+-rw-r--r-- 1 kali kali   18 Oct  2 21:06 permissions
+
+
+
+chmod o-r permissions
+chmod u+rwx
+chmow g+
+
+
+7      1          0
+owner  group      other
+
+622
+
+
+
+
+
+
+Linux File system Hierarchy:
+
+/ - Root directory or Top level directory
+/home - regular users home directory
+/root - Root user's home directory
+/tmp - temporary files or directories
+/boot - boot directory
+/lib - libraries related to OS
+/mnt or /media  - mount devices
+/usr - user spacific programs
+/etc - configuration files
+/var - variable /var/log/
+/bin - essential commands
+/dev - devices
+/proc - system information
+/sbin = system administration commands
+/run - 
+
+/usr/local/bin
+
+
+
+cut -d ":" -f 1
+
+madhu :x:1001:1001::/home/madhu:/bin/bash
+
+awk -F ":" '{print $1}'
+
+cat /etc/passwd | awk -F ":" '$3<1000{print $1,$3}'
+
+
+sed -i "s/cyber/Hero/" hello.txt
+
+
+zip filename.zip target_file/folder
+
+tar.gz 
+
+tar czvf file.tar.gz target_files/folder ( f1 f2 file1)
+
+
+Package managers:
+
+debian Kali/ubuntu - apt or apt-get or dpkg(.deb)
+
+dpkg -i filename.deb
+
+Centos/Redhat/Amazon linux - yum, or dnf or rpm
+
+cat /etc/os-release
