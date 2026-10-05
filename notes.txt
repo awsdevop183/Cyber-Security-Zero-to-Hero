@@ -115,3 +115,52 @@ dpkg -i filename.deb
 Centos/Redhat/Amazon linux - yum, or dnf or rpm
 
 cat /etc/os-release
+
+
+
+
+NETWORKING FUNDAMENTALS:
+
+
+What is Networking?
+
+Two or more devices connect together, and they share information or data or resources
+together is called networking
+
+1. PAN - Personal Area Network (earbuds, airpods,Bluetooth)
+
+2. LAN - Local Area Network - Home Wifi, School,Office
+
+3. MAN - Metropolitan area Network - it spans across cities ()
+
+4. WAN - Wide Area Network - it spans across countries, continents
+
+
+Network Topology:
+
+1. Bus topolgy
+2. Start topology
+3. Ring topology
+4. Mesh topology
+5. Tree topology
+6. Hybrid topology
+
+
+
+NIC card- Network Interface Card ( Physical address - MAC(media access control))
+
+Hub - L1 (Physical layer)
+
+Switch - L2 (Data link layer) - intelligent device
+
+
+Router - it routers the traffic
+
+Modern router ( Switch, Modem, router)
+
+Modem -  hardware device that connects your home network or computer to the internet by translating signals from your Internet Service Provider (ISP) into data your devices can use
+
+MAC: 8C:08:AA:D2:48:5F
+
+
+Network protocol: 
