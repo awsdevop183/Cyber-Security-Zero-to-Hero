@@ -1,0 +1,141 @@
+Network Protocols:
+
+What is a protocol?
+
+set-of rules or guidelines
+
+
+TCP - Transmission Control protocol - connection oriented protocol, reliable protocol
+      When reliability matters
+
+UDP - User Datagram Protocol - connection-less protocol, or non-reliable protocol
+      Google meet, Zoom meeting, Live streaming, Gaming - real-time updates
+
+web communication protocols:
+
+HTTP:  Hyper Text Transfer protocol 80 - Plain text protocol
+HTTPS:  Hyper Text Transfer protocol Secure: 443 - Encrypted 
+
+
+FTP -  File Transfer protocol (20, 21)
+21 - Command and control
+20 - Data connection
+DNS - UDP () Domain Name System (53)
+SSH - 22 TCP
+ARP - 
+IP - Internet Protocol (addressing and routing)
+ICMP - Diagnostic
+SMB - Server Message Block
+
+
+Mysql - 3306 
+RDP - 3389 
+
+
+Ports - 0-65535
+
+DHCP - Dynamic Host Configuration protocol
+
+URL - Uniform Resource Locator
+
+https://madhukarreddy.com
+
+
+.com TLD
+.shop
+.in
+.online
+
+madhukarreddy - SLD
+
+dev.madhukarreddy.com
+support.madhukarreddy.com
+
+dev, support - Subdomains
+
+https://madhukarreddy.com
+
+https://madhukarreddy.com/category/cyber-security/?id=1
+
+protocol  domain.    /path. query id=parameter, value=1
+
+
+
+
+
+
+
+IP Addresses and firewalls:
+
+49.       43.    231.     215
+
+octet    octet   octet    octet
+
+8         8         8       8       = 32 bit address. = 2 power 32 = 4 billion = 10 devices
+
+
+private  
+192.168.29.26 - mac
+192.168.29.118
+192.168.29.182
+
+
+public 
+2405:201:c027:7863:2977:3755:ec33:6c25.  128 bit 
+
+
+Firewalls - security system ( security guard)
+
+
+software firewalls - Windows defender, ufw
+hardware firewwalls ( router basic firewall, Cisco, palo)
+
+
+
+
+
+OSI Model - Open Systems Interconnection (7 layers)
+
+(bottom → top): Please Do Not Throw Sausage Pizza Away
+
+7. Application   - user apps talk to network (HTTP, DNS, FTP, SSH, SMTP)
+6. Presentation  - format, encrypt, compress (TLS/SSL, JSON, JPG)
+5. Session       - open / maintain / close conversation (login session)
+4. Transport     - segments, ports, reliability (TCP, UDP)
+3. Network       - packets, IP address, routing (IP, ICMP, router)
+2. Data Link     - frames, MAC address (ARP, switch)
+1. Physical      - bits, cables, Wi-Fi signals (hub, cable)
+
+Sending   : 7 → 1 (encapsulation - wrap)
+Receiving : 1 → 7 (decapsulation - unwrap)
+
+
+
+
+
+Each layer answers one question
+
+┌────────────────┬──────────────────────────────────┬──────────────────────────────────────┐
+│ Layer          │ The question it answers          │ Answer for madhukarreddy.com         │
+├────────────────┼──────────────────────────────────┼──────────────────────────────────────┤
+│ 7 Application  │ What do you want?                │ "Show me the madhukarreddy homepage" │
+│ 6 Presentation │ Is it safe and readable?         │ It's encrypted (HTTPS)               │
+│ 5 Session      │ Is the connection still open?    │ Yes, Chrome keeps it open            │
+│ 4 Transport    │ Which app or door?               │ Port 443                             │
+│ 3 Network      │ Which computer on the internet?  │ madhukarreddy.com's IP address       │
+│ 2 Data Link    │ Which device next on my network? │ The router's MAC address             │
+│ 1 Physical     │ How does it physically travel?   │ Wi-Fi signals / cable as 0s and 1s   │
+└────────────────┴──────────────────────────────────┴──────────────────────────────────────┘
+
+
+
+
+TCP/IP (4 layers):
+
+Application (7,6,5)
+Transport (4)
+Internet (3)
+Network Access (2,1)
+
+
+
