@@ -71,7 +71,7 @@ The repo grows as I go. Notes are short and practical, with commands and example
 - [x] OSI and TCP/IP models
 - [x] Web application and HTTP basics
 - [ ] Web application penetration testing
-- [ ] More topics as I learn them
+- [ ] More topics as I teach them
 
 ## Disclaimer
 
