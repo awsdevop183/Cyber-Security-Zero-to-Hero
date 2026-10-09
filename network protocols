@@ -104,12 +104,24 @@ OSI Model - Open Systems Interconnection (7 layers)
 4. Transport     - segments, ports, reliability (TCP, UDP)
 3. Network       - packets, IP address, routing (IP, ICMP, router)
 2. Data Link     - frames, MAC address (ARP, switch)
-1. Physical      - bits, cables, Wi-Fi signals (hub, cable)
+1. Physical      - bits, cables, Wi-Fi signals (hub or switch, cable)
 
 Sending   : 7 → 1 (encapsulation - wrap)
 Receiving : 1 → 7 (decapsulation - unwrap)
 
 
+
+
+
+
+
+
+TCP/IP (4 layers):
+
+Application (7,6,5)
+Transport (4)
+Internet (3)
+Network Access (2,1)
 
 
 
@@ -130,12 +142,51 @@ Each layer answers one question
 
 
 
-TCP/IP (4 layers):
-
-Application (7,6,5)
-Transport (4)
-Internet (3)
-Network Access (2,1)
 
 
 
+
+
+
+Lab setup for Web Application Penetration testing :
+
+1. Metasploitable 3
+2. Windows 10 or 7 VM
+
+
+
+Website vs Web application
+
+website: provides information ( blog, portfolio websites)
+
+Web Application: It lets users to perform taks or work with data
+
+1. Frontend ( HTML, CSS, JavaScript)
+   1. HTML - gives skeleton
+   2. CSS - Styling
+   3. JavaScript - Makes it interactive
+
+2. Backend (API) - Nodejs, python, Java, Ruby. 
+3. Database: Mysql, Postgresql, MongoDB etc etc 
+
+
+HTTP methods
+
+GET - to get data
+POST - To send data or create data (ex. Sign up)
+Put - update something
+Delete - Delete something
+
+
+
+
+
+HTTP Status
+
+
+Informational responses (100 - 199)
+
+Successful responses (200 - 299) - success or OK
+Redirection messages (300 - 399) - redirection codes http to https
+Client error responses (400 - 499) - browser or user side, 404, 400, 403, 401
+Server error responses (500 - 599) - server side error
