@@ -190,3 +190,51 @@ Successful responses (200 - 299) - success or OK
 Redirection messages (300 - 399) - redirection codes http to https
 Client error responses (400 - 499) - browser or user side, 404, 400, 403, 401
 Server error responses (500 - 599) - server side error
+
+
+
+What is Bug Bounty?
+
+How to find programs
+
+What is hall of fame 
+
+Bug reporting format:
+
+Vulnerability Name: Stored Cross site scripting
+Description: 
+Vulnerable domain or URL: test.madhukarreddy.com
+Steps to reproduce: 
+POC: proof of concept
+Impact: 
+Optional (remedy or counter measures)
+
+
+
+1. Information gathering or Reconnaissance or Recon
+   
+   domain 
+
+   sub-domains:
+     test.madhukarreddy.com
+
+Google Dorks
+1. subfinder 
+2. sublist3r
+3. Waybackurl - web 
+4. HTTPx http
+5. Red hawk
+6. dirsearch
+7. fuff
+8. Automation
+9. Wpscan
+10. Paramspider - Parameters
+
+
+
+
+1. Forgotten endpoints
+2. Exposed files
+3. Attack surface ()
+4. Sensitive files or folders
+5. log files or backup files
